@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
             integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
 <header class="page-header">
@@ -40,7 +40,7 @@
 <section class="hero section">
     <div class="container">
     <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
-    <button class="button" type="button" data-modal-open>Заказать услугу</button>
+    <button class="button hero__button" type="button" data-modal-open>Заказать услугу</button>
     </div>
 </section>
 <section class="section about">
@@ -368,7 +368,7 @@
             <div class="panel"></div>
          <label for="form"></label>   
          <input type="text" name="form" class="page-form__input" placeholder="E-mail" id="form">
-         <button class="page-form__button" type="button">
+         <button class="page-form__button button" type="button">
             <span>Подписаться</span>
         <svg class="page-form__icon" width="24" height="24">
             <use href="./images/icons.svg#icon-icon-send"></use>
@@ -414,12 +414,12 @@
             </div>
             <div class="content-checkbox">
                 <input type="checkbox" name="check" id="check" value="check" class="content-checkbox__input visually-hidden">
-                <label for="check" class="content-checkbox__label"><span class="check-span"><svg class="check-icon" width="16" height="15">
+                <label for="check" class="content-checkbox__label"><span class="content-checkbox__span"><svg width="16" height="15">
                     <use href="./images/icons.svg#icon-icon-check"></use>
                 </svg></span>
-                    Соглашаюсь с рассылкой и принимаю <a class="modal-a" href=""> Условия договора</a></label>
+                    Соглашаюсь с рассылкой и принимаю <a class="content-checkbox__link" href=""> Условия договора</a></label>
             </div>
-            <button class="btn" type="submit">Отправить</button>
+            <button class="content-checkbox__button button" type="submit">Отправить</button>
         </form>
     </div>
 </div>
