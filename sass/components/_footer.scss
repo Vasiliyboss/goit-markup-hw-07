@@ -27,10 +27,10 @@
   line-height: 1.71;
   color: var(--footer-text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contact__link:hover,
-.contact__link:focus {
-  color: var(--third-title-color);
+  &:hover,
+  &:focus {
+    color: var(--third-title-color);
+  }
 }
 .contact__link--color {
   color: var(--main-title-color);
@@ -68,13 +68,13 @@
   padding: 15px 16px;
   color: rgba(255, 255, 255, 0.3);
   outline: none;
-}
-.page-form__input::placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 3%;
-  color: rgba(255, 255, 255, 0.6);
+  &::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 3%;
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 .page-form__button {
   margin-left: 12px;

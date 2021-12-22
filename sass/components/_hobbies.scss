@@ -5,9 +5,9 @@
 .annexes__item {
   margin-right: 30px;
   position: relative;
-}
-.annexes__item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 .annexes__text {
   font-weight: 700;
