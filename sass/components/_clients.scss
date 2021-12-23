@@ -1,11 +1,11 @@
-.logo-set {
+.clients__list {
   display: flex;
   justify-content: center;
 }
-.logo-set__item + .logo-set__item {
+.clients__item + .clients__item {
   margin-left: 30px;
 }
-.logo-set__link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,6 +26,6 @@
     border: 1px solid #2196f3;
   }
 }
-.logo-set__icon {
+.clients__icon {
   fill: currentColor;
 }
